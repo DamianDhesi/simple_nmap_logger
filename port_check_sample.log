@@ -1,0 +1,225 @@
+Scan Started (UTC): 2024-05-13T23:46:55+00:00
+# Nmap 7.80 scan initiated Mon May 13 16:46:55 2024 as: nmap -iL targets.txt -n -p1-65535 -sV -oX nmap_results.xml -oN .temp.log
+Nmap scan report for test1.io
+Host is up (0.012s latency).
+Not shown: 65531 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp    open     http     Apache httpd 2.4.59 ((Debian))
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for test2.io
+Host is up (0.011s latency).
+Not shown: 65527 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp    open     http     Apache httpd 2.4.59
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+12822/tcp filtered unknown
+20253/tcp filtered unknown
+21980/tcp filtered unknown
+26296/tcp filtered unknown
+Service Info: Host: test2.io; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for test3.io
+Host is up (0.012s latency).
+Not shown: 65531 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp    open     http     Apache httpd 2.4.59 ((Debian))
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for test4.io
+Host is up (0.012s latency).
+Not shown: 65531 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp    open     http     Apache httpd 2.4.59 ((Debian))
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for test5.io
+Host is up (0.010s latency).
+Not shown: 65532 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for test6.io
+Host is up (0.012s latency).
+Not shown: 65530 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp    filtered http
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+8061/tcp  filtered unknown
+11211/tcp filtered memcache
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for test7.io
+Host is up (0.012s latency).
+Not shown: 65531 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp    open     http     Apache httpd 2.4.59 ((Debian))
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for test8.io
+Host is up (0.011s latency).
+Not shown: 65531 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp    open     http     Apache httpd 2.4.59 ((Debian))
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for test9.io
+Host is up (0.011s latency).
+Not shown: 65531 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp    open     http     Apache httpd 2.4.59 ((Debian))
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon May 13 16:53:40 2024 -- 9 IP addresses (9 hosts up) scanned in 404.84 seconds
+CHANGES:
+	NO PREVIOUS DATA
+
+Scan Started (UTC): 2024-05-13T23:54:18+00:00
+# Nmap 7.80 scan initiated Mon May 13 16:54:18 2024 as: nmap -iL targets.txt -n -p1-65535 -sV -oX nmap_results.xml -oN .temp.log
+Nmap scan report for test1.io
+Host is up (0.011s latency).
+Not shown: 65531 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp    open     http     Apache httpd 2.4.59 ((Debian))
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for test2.io
+Host is up (0.012s latency).
+Not shown: 65531 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp    open     http     Apache httpd 2.4.59
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+Service Info: Host: test2.io; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for test3.io
+Host is up (0.011s latency).
+Not shown: 65531 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp    open     http     Apache httpd 2.4.59 ((Debian))
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for test4.io
+Host is up (0.013s latency).
+Not shown: 65531 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp    open     http     Apache httpd 2.4.59 ((Debian))
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for test5.io
+Host is up (0.017s latency).
+Not shown: 65532 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for test6.io
+Host is up (0.013s latency).
+Not shown: 65531 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp    filtered http
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for test7.io
+Host is up (0.013s latency).
+Not shown: 65531 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp    open     http     Apache httpd 2.4.59 ((Debian))
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for test8.io
+Host is up (0.011s latency).
+Not shown: 65531 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp    open     http     Apache httpd 2.4.59 ((Debian))
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for test9.io
+Host is up (0.013s latency).
+Not shown: 65531 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     ssh      OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp    open     http     Apache httpd 2.4.59 ((Debian))
+443/tcp   open     ssl/ssl  Apache httpd (SSL-only mode)
+11211/tcp filtered memcache
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon May 13 17:08:49 2024 -- 9 IP addresses (9 hosts up) scanned in 870.96 seconds
+CHANGES:
+test1.io
+	no changes
+
+test2.io
+	Port 12822 has been closed
+	Port 20253 has been closed
+	Port 21980 has been closed
+	Port 26296 has been closed
+
+test3.io
+	no changes
+
+test4.io
+	no changes
+
+test5.io
+	no changes
+
+test6.io
+	Port 8061 has been closed
+
+test7.io
+	no changes
+
+test8.io
+	no changes
+
+test9.io
+	no changes
+
