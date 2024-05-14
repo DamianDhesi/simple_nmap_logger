@@ -7,7 +7,7 @@ import datetime
 
 result_file = "nmap_results.xml"
 prev_file = "nmap_results_prev.xml"
-log_file = "port_check.log"
+log_file = "simple_nmap_logger.log"
 temp_file = ".temp.log"
 
 # Grabs data from an nmap xml tree and verify if changes occured in given values
